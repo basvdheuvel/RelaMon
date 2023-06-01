@@ -1,0 +1,2 @@
+a -> s <str> . s -> a <int> . s -> b <int> . a -> b <int> . b -> a (ok . b -> s (ok . b -> s <str> . s -> b <date> . end),
+                        quit . b -> s (quit . end))

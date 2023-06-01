@@ -1,0 +1,5 @@
+p -> r <int,int,int,int> . mu X . p -> r (isabove . r -> p <int> . p -> r <int>  . r -> p <int> . p -> r (bothin . p -> c <int> . X,
+                                                                                                          bothout . p -> c (bothout . X),
+                                                                                                          intersct . p -> r <int,int> . r -> p <int> . p -> c (secout . p -> c <int> . X,
+                                                                                                                                                               secin . p -> c <int,int> . X)),
+                                          close . p -> c (close . end))

@@ -1,0 +1,5 @@
+c -> p <sap> . mu X . p -> c (accpt . c -> p (confirm . end),
+                              reject . end,
+                              propose . p -> c <sap> . c -> p (accpt . p -> c (confirm . end),
+                                                               reject . end,
+                                                               propose . c -> p <sap> . X))

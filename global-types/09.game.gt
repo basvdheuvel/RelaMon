@@ -1,0 +1,6 @@
+srv -> cli (a . mu X1 . srv -> b (1 . b -> c (1 . c -> srv (1 . X1)),
+                                 2 . b -> c (2 . c -> srv (2 . end))),
+            b . mu X2 . a -> srv (1 . srv -> c (1 . c -> a (1 . X2)),
+                                 2 . srv -> c (2 . c -> a (2 . end))),
+            c . mu X3 . srv -> a <unit> . srv -> b <unit> . a -> b (1 . b -> srv (1 . srv -> a (1 . X3)),
+                               2 . b -> srv (2 . srv -> a (2 . end))))

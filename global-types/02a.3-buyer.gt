@@ -1,0 +1,6 @@
+// Not well-formed:
+b -> c <int> . c -> a (ok . s -> b <date> . end,
+                       quit . end)
+// Well-formed:
+//b -> c <int> . c -> a (ok . c -> s <unit> . s -> b <date> . end,
+//                       quit . end)

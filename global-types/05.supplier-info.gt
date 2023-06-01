@@ -1,0 +1,6 @@
+// l = loginsvc, r = requestor, a = authorisesvc, f = filtersvc, s = suppliersvc, c = contractsvc
+r -> l <str,str> . l -> r (loginfailure . r -> l (disconnect . end),
+                           logicsuccess . mu X . r -> a (getsuppliers . r -> a <str> . a -> r (deny . a -> l <unit> . a -> s <unit> . a -> c <unit> . a -> f <unit> . X,
+                                                                                               acpt . a -> s (getsuppliers . s -> a <array[str]> . a -> f <array[str],str> . f -> a <array[str]> . a -> r <array[str]> . a -> c <unit> . X)),
+                                                         getcontracts . a -> r (deny . a -> l <unit> . a -> s <unit> . a -> c <unit> . a -> f <unit> . X,
+                                                                                accpt . a -> c (getcontracts . c -> a <array[str]> . a -> f <array[str],str> . f -> a <array[str]> . a -> r <array[str]> . a -> s <unit> . X))))

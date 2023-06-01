@@ -1,0 +1,3 @@
+// s = shop, c = customer, b = barber
+mu X . s -> c (full . X,
+               seat . b -> s (available . s -> c (ready . c -> b <str> . b -> c (haircut . c -> b <str> . end))))

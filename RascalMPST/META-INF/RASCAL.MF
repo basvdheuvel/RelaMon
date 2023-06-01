@@ -1,0 +1,7 @@
+Manifest-Version: 0.0.1
+Courses: courses
+Project-Name: RascalMPST
+Require-Libraries: 
+Source: src
+Main-Module: RelaMon
+Main-Function: main

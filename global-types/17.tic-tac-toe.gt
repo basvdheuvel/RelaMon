@@ -1,0 +1,4 @@
+// a = alice, b = bob
+mu X . a -> b (play . a -> b <long> . b -> a (play . b -> a <long> . X,
+                                              fin . end),
+               fin . end)

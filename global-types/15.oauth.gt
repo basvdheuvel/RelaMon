@@ -1,0 +1,3 @@
+s -> c (login . mu X . c -> a <str> . a -> s (auth . s -> c (auth . end),
+                                              again . s -> c (again . X)),
+        cancel . c -> a (quit . end))

@@ -1,0 +1,3 @@
+mu X . c -> a (query . c -> a <str> . a -> c <int> . a -> s <unit> . X,
+               yes . a -> s (yes . c -> s <str> . s -> c (ack . c -> a (bye . end))),
+               no . a -> s (no . c -> a (bye . end)))

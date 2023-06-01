@@ -1,0 +1,9 @@
+mu X . a -> g (rock . b -> g (rock . g -> a (tie . g -> b (tie . X)),
+                              paper . g -> a (lose . g -> b (win . end)),
+                              scissors . g -> a (win . g -> b (lose . end))),
+               paper . b -> g (rock . g -> a (win . g -> b (lose . end)),
+                               paper . g -> a (tie . g -> b (tie . X)),
+                               scissors . g -> a (lose . g -> b (win . end))),
+               scissors . b -> g (rock . g -> a (lose . g -> b (win . end)),
+                                  paper . g -> a (win . g -> b (lose . end)),
+                                  scissors . g -> a (tie . g -> b (tie . X))))

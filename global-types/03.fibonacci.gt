@@ -1,0 +1,2 @@
+mu X . a -> b (fibonacci . a -> b <long> . b -> a <long> . X,
+               stop . end)

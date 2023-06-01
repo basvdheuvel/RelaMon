@@ -1,0 +1,25 @@
+{
+  "name": "RelaMon",
+  "version": "1.0.0",
+  "description": "This tool was developed as part of the Bachelor's project of Rares Dobre. Supervisors: Bas van den Heuvel, Jorge A. Pérez.",
+  "main": "monitor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basvdheuvel/RelaMon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basvdheuvel/RelaMon/issues"
+  },
+  "homepage": "https://github.com/basvdheuvel/RelaMon#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "axios-retry": "^3.2.5",
+    "chalk": "^4.1.2",
+    "express": "^4.18.1"
+  }
+}

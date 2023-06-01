@@ -1,0 +1,3 @@
+// c = cli, s = srv, f = fwd
+c -> s <str> . s -> f (query . s -> f <str> . f -> s <str> . s -> c <str> . end,
+                       dummy . s -> c <str> . end)

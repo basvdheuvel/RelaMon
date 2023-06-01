@@ -1,0 +1,2 @@
+mu X . a -> b <nat> . a -> b (heads . c -> b (heads . b -> a (win . X), tails . b -> a (lose . end)),
+                              tails . c -> b (heads . b -> a (lose . end), tails . b -> a (win . X)))

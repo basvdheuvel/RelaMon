@@ -1,0 +1,3 @@
+mu X . c -> s (sum . c -> s <int,int> . s -> c <int> . X,
+               multiply . c -> s <int,int> . s -> c <int> . X,
+               quit . s -> c (terminate . end))

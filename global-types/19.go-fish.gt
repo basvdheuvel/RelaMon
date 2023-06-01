@@ -1,0 +1,4 @@
+// 3 players + deck: d = deck
+d -> a <array[str]> . d -> b <array[str]> . d -> c <array[str]> . mu X . a -> b (ask . a -> b <str> . b -> a (bite . ,
+                                                                                                              gofish,
+                                                                                 skip . )
